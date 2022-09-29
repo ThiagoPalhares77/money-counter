@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2022-09-29T16:50:22.367Z"
+    },
+    {
+      "id": 3,
+      "description": "Almoço",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 80,
+      "createdAt": "2022-09-29T17:51:02.367Z"
     }
   ]
 }
