@@ -1,7 +1,7 @@
 import * as Dialog from '@radix-ui/react-dialog'
 import * as z from 'zod'
-
 import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react'
+
 import {
   CloseButton,
   Content,
@@ -30,6 +30,7 @@ export function NewTransactionModal() {
       return context.createTransaction
     }
   )
+
   const {
     control,
     register,
@@ -75,7 +76,7 @@ export function NewTransactionModal() {
             type="number"
             placeholder="Preço"
             required
-            {...register('price', { valueAsDate: true })}
+            {...register('price', { valueAsNumber: true })}
           />
           <input
             type="text"
